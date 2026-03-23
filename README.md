@@ -2,7 +2,7 @@
 
 An end-to-end automated AI pipeline that scrapes Play Store reviews, analyzes themes, generates fee explainers via the Gemini API, and prepares structural reports via MCP (Model Context Protocol). It supports a **headless CLI execution** and a gorgeous **Web UI Dashboard** for reviewing the report before triggering MCP actions.
 
-[Dashboard Preview]([https://via.placeholder.com/800x450.png?text=Weekly+Pulse+Dashboard+-+Deep+Dark+Visual+Mode](https://indmoney-pulse.onrender.com/))
+[Dashboard Preview](https://indmoney-pulse.onrender.com/)
 
 ---
 
