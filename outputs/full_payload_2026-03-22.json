@@ -1,0 +1,76 @@
+{
+  "date": "2026-03-22",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "Customer Support & Issue Resolution",
+        "description": "Users express frustration with slow, unhelpful, or non-existent customer support, leading to unresolved issues and account problems.",
+        "review_count": 16
+      },
+      {
+        "name": "App Interface & User Experience",
+        "description": "Feedback on the app's design, including cluttered interfaces, large fonts, and missing features, with comparisons to competitors.",
+        "review_count": 11
+      },
+      {
+        "name": "Charges & Fees",
+        "description": "Concerns about hidden charges, increased brokerage fees, and unexpected deductions, particularly for US stocks and specific transactions.",
+        "review_count": 9
+      },
+      {
+        "name": "Transaction & Payment Issues",
+        "description": "Problems with failed recharges, money debited but not credited, and delays in fund transfers.",
+        "review_count": 8
+      },
+      {
+        "name": "Feature Gaps & Functionality",
+        "description": "Requests for missing features like basket investing for MFs, manual tracking for EPF, and issues with external portfolio refresh.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "Customer Support & Issue Resolution",
+      "App Interface & User Experience",
+      "Charges & Fees"
+    ],
+    "quotes": [
+      {
+        "text": "worst customer support indmoney has.. pathetic.. I want to close my account they aren't helping.",
+        "rating": 1
+      },
+      {
+        "text": "The interface is very much cluttered and font size is kind of very bigger. it's good to track india stock, US stocks and Mutual fund all in one place which is good but it doesn't provide rich UI.",
+        "rating": 2
+      },
+      {
+        "text": "Warning ⚠️ I bought 15 shares ranging from ₹1 to ₹25 and when I sold them they charged DP Charges of ₹14+18% GST on every Share I sold. My wallet balance got in Negative.",
+        "rating": 1
+      }
+    ],
+    "note": "User feedback highlights significant pain points in customer support, app interface, and transparency around charges. Many users are experiencing unresolved issues, leading to frustration and distrust. The app's UI is frequently criticized for being cluttered and outdated compared to competitors. There's a clear demand for better issue resolution, a more intuitive user experience, and clearer communication regarding all fees and charges. Addressing these core areas is crucial for improving user satisfaction and retention.",
+    "actions": [
+      "Implement a tiered customer support system with clear SLAs for issue resolution, prioritizing unresolved tickets and providing proactive communication.",
+      "Conduct a UI/UX audit focusing on simplifying the interface, optimizing font sizes, and improving navigation, benchmarking against leading competitors like Zerodha and Groww.",
+      "Create a dedicated section within the app and FAQ that clearly outlines all potential charges, including DP charges, brokerage, and any other fees, with examples for different transaction types."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the lock-in period for its applicability are determined by the Asset Management Company (AMC) of the specific mutual fund scheme.",
+    "INDmoney, as a platform, facilitates the redemption process and displays the applicable exit load as per the fund's scheme information document.",
+    "If units are redeemed within the stipulated exit load period, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is typically a percentage of the Net Asset Value (NAV) at the time of redemption."
+  ],
+  "source_links": [
+    {
+      "label": "SEBI Master Circular on Mutual Funds",
+      "url": "https://www.sebi.gov.in/legal/master-circulars/mar-2023/master-circular-on-mutual-funds_69210.html"
+    },
+    {
+      "label": "INDmoney Help - Exit Load",
+      "url": "https://www.indmoney.com/help/exit-load"
+    }
+  ],
+  "last_checked": "2026-03-22"
+}

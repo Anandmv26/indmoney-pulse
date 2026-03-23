@@ -1,0 +1,76 @@
+{
+  "date": "2026-03-23",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "Customer Support & Issue Resolution",
+        "description": "Users are expressing significant dissatisfaction with the responsiveness, effectiveness, and accessibility of customer support. Issues include unresolved tickets, delayed refunds, difficulty closing accounts, and lack of direct contact options.",
+        "review_count": 17
+      },
+      {
+        "name": "App Interface & User Experience",
+        "description": "Feedback on the app's design, navigation, and usability. Users find the interface cluttered, font sizes too large, and certain features missing or less intuitive compared to competitors. Specific complaints about the portfolio section and website experience.",
+        "review_count": 11
+      },
+      {
+        "name": "Charges & Fees",
+        "description": "Concerns about hidden charges, brokerage fees, and unexpected deductions. Users feel that fees are not clearly communicated upfront, leading to negative wallet balances and frustration.",
+        "review_count": 8
+      },
+      {
+        "name": "Transaction & Payment Issues",
+        "description": "Problems related to failed payments, money debited but not credited, and delays in fund transfers. This includes issues with recharges, NPS contributions, and general UPI payment failures.",
+        "review_count": 8
+      },
+      {
+        "name": "Feature Gaps & Functionality",
+        "description": "Users are requesting specific features or reporting missing functionalities. This includes the absence of basket purchases for mutual funds, manual tracking for EPF, and issues with external mutual fund data refresh.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "Customer Support & Issue Resolution",
+      "App Interface & User Experience",
+      "Charges & Fees"
+    ],
+    "quotes": [
+      {
+        "text": "worst customer support indmoney has.. pathetic.. I want to close my account they aren't helping.",
+        "rating": 1
+      },
+      {
+        "text": "The interface is very much cluttered and font size is kind of very bigger. it's good to track india stock, US stocks and Mutual fund all in one place which is good but it doesn't provide rich UI. Please check all your competitors UI like Zerodha, Groww where you feel so much difference. The font is too much bigger and UI is very bad. also, the website is even worse since most of the options are not there at all.",
+        "rating": 2
+      },
+      {
+        "text": "Warning ⚠️ I bought 15 shares ranging from ₹1 to ₹25 and when I sold them they charged DP Charges of ₹14+18% GST on every Share I sold. My wallet balance got in Negative. The problem is that They won't tell you all this before adding funds in your Demat wallet. Everything is hidden beneath FAQ pages if you dig. Invest in Mutual funds to avoid all hidden charges.",
+        "rating": 1
+      }
+    ],
+    "note": "User feedback over the last 10 weeks highlights significant pain points in customer support, app interface, and transparency around charges. Many users are experiencing unresolved issues, leading to frustration and distrust. The app's UI is frequently described as cluttered and less intuitive than competitors. Transaction and payment failures, along with missing functionalities like basket MF purchases, are also recurring concerns. Addressing these core areas is crucial for improving user satisfaction and retention.",
+    "actions": [
+      "Implement a tiered customer support system with clear SLAs for issue resolution and refunds, prioritizing unresolved tickets and account closure requests.",
+      "Conduct a UI/UX audit focusing on simplifying the portfolio section, optimizing font sizes, and improving overall navigation, benchmarking against leading competitors.",
+      "Enhance transparency regarding all charges and fees by prominently displaying them within the app before transactions and in a dedicated, easily accessible section."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the lock-in period for its applicability are determined by the Asset Management Company (AMC) of the specific mutual fund scheme.",
+    "INDmoney, as a platform, facilitates the redemption process and displays the applicable exit load as per the fund's scheme information document.",
+    "If units are redeemed within the stipulated exit load period, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is typically a percentage of the Net Asset Value (NAV) at the time of redemption."
+  ],
+  "source_links": [
+    {
+      "label": "SEBI Master Circular on Mutual Funds",
+      "url": "https://www.sebi.gov.in/legal/master-circulars/mar-2023/master-circular-on-mutual-funds_69210.html"
+    },
+    {
+      "label": "INDmoney Help - Exit Load",
+      "url": "https://www.indmoney.com/help/exit-load"
+    }
+  ],
+  "last_checked": "2026-03-23"
+}

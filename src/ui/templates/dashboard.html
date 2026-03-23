@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Pulse Dashboard | INDmoney AI</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div id="toast-container"></div>
+
+    <header class="glass-panel main-header slide-in-down">
+        <div class="header-left">
+            <div class="logo">
+                <span class="logo-icon">📊</span>
+                <h1>INDmoney AI Workflow</h1>
+            </div>
+            <div class="status-badge" id="status-badge">
+                <span class="pulse-dot"></span>
+                <span id="status-text">Loading...</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="date-chip" id="date-chip">YYYY-MM-DD</div>
+        </div>
+    </header>
+
+    <main class="dashboard-grid">
+        <!-- Top Themes Card -->
+        <section class="glass-card fade-in-up" style="animation-delay: 0.1s;">
+            <div class="card-header">
+                <h2>Top Themes</h2>
+                <span class="badge">Last 10 Weeks</span>
+            </div>
+            <ul class="theme-list" id="theme-list">
+                <!-- Javascript will inject here -->
+                <li class="loading-skeleton"></li>
+            </ul>
+        </section>
+
+        <!-- Weekly Note Card -->
+        <section class="glass-card fade-in-up" style="animation-delay: 0.2s; grid-column: span 2;">
+            <div class="card-header">
+                <h2>Weekly Product Pulse</h2>
+            </div>
+            <div class="note-content" id="weekly-note">
+                <!-- Javascript will inject here -->
+                <p class="loading-skeleton"></p>
+                <p class="loading-skeleton w-75"></p>
+            </div>
+        </section>
+
+        <!-- Quotes Card -->
+        <section class="glass-card fade-in-up" style="animation-delay: 0.3s; grid-column: span 2;">
+            <div class="card-header">
+                <h2>Key User Quotes</h2>
+            </div>
+            <div class="quotes-grid" id="quotes-grid">
+                <!-- Javascript will inject here -->
+            </div>
+        </section>
+
+        <!-- Action Ideas Card -->
+        <section class="glass-card fade-in-up" style="animation-delay: 0.4s;">
+            <div class="card-header">
+                <h2>Action Ideas</h2>
+            </div>
+            <ol class="action-list" id="action-list">
+                <!-- Javascript will inject here -->
+            </ol>
+        </section>
+
+        <!-- Fee Explainer Card -->
+        <section class="glass-card fade-in-up" style="animation-delay: 0.5s; grid-column: span 3;">
+            <div class="card-header">
+                <h2>Fee Explainer</h2>
+                <span class="scenario-badge" id="fee-scenario">Scenario Title</span>
+            </div>
+            <div class="fee-split">
+                <div class="fee-bullets">
+                    <ul id="fee-bullets-list">
+                        <!-- Javascript will inject here -->
+                    </ul>
+                </div>
+                <div class="fee-sources">
+                    <h3>Official Sources</h3>
+                    <ul id="fee-sources-list">
+                        <!-- Javascript will inject here -->
+                    </ul>
+                    <div class="last-checked" id="last-checked">Last checked: -</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Recipient & Action Bar -->
+        <section class="glass-card action-bar fade-in-up" style="animation-delay: 0.6s; grid-column: span 3;">
+            <div class="recipient-manager">
+                <label for="email-input">Draft Recipients:</label>
+                <div class="email-input-wrapper">
+                    <input type="email" id="email-input" placeholder="Type email and press Enter...">
+                    <button id="add-email-btn" class="btn btn-secondary">Add</button>
+                </div>
+                <div class="recipient-chips" id="recipient-chips">
+                    <!-- Javascript will inject chips here -->
+                </div>
+            </div>
+            <div class="action-buttons">
+                <button id="btn-reject" class="btn btn-danger">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    Reject Pipeline
+                </button>
+                <button id="btn-approve" class="btn btn-success">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    Approve & Run MCP
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Confirmation Modal -->
+    <div class="modal-overlay" id="confirm-modal">
+        <div class="glass-card modal-content">
+            <h2>Confirm Submission</h2>
+            <p>You are about to approve this report and trigger the following MCP actions:</p>
+            <ul>
+                <li>Append report to Google Doc</li>
+                <li>Create Gmail Draft for <strong id="confirm-count">0</strong> recipients</li>
+            </ul>
+            <div class="modal-actions">
+                <button class="btn btn-secondary" id="modal-cancel">Cancel</button>
+                <button class="btn btn-success" id="modal-confirm">Confirm & Proceed</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
