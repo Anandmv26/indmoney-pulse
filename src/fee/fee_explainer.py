@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # --- Constants ---
-MODEL = "gemini-2.5-flash-lite"
+MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite")
 MAX_TOKENS = 2000
 FEE_SCENARIO = "mutual fund exit load on the INDmoney platform"
 MAX_BULLETS = 6

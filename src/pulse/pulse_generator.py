@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # --- Constants ---
-MODEL = "gemini-2.5-flash-lite"
+MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite")
 MAX_TOKENS = 4000
 MAX_NOTE_WORDS = 250
 
