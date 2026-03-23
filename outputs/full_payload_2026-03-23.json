@@ -4,54 +4,54 @@
     "themes": [
       {
         "name": "Customer Support & Issue Resolution",
-        "description": "Users frequently complain about poor customer support, lack of timely resolution, unresponsiveness, and difficulty in contacting support agents.",
+        "description": "Users are frequently reporting issues with customer support, including unresponsiveness, closed tickets without resolution, difficulty in contacting support, and unresolved financial transactions.",
         "review_count": 17
       },
       {
+        "name": "Charges & Fees Transparency",
+        "description": "Users are expressing dissatisfaction with hidden charges, unexpected brokerage fees, and unclear fee structures, particularly for US stocks and certain transactions.",
+        "review_count": 10
+      },
+      {
         "name": "App Functionality & User Experience",
-        "description": "Reviews highlight issues with app interface, complexity, cluttered design, font size, missing features, and glitches affecting trading and payments.",
+        "description": "Reviews highlight issues with app updates negatively impacting usability, problems with specific features like portfolio tracking, UPI payments, and order modification, as well as difficulties with KYC processes.",
         "review_count": 15
       },
       {
-        "name": "Charges & Fees",
-        "description": "Users express dissatisfaction with hidden charges, brokerage fees, and unexpected deductions, particularly for US stocks and certain transactions.",
+        "name": "Investment Features & Data Analysis",
+        "description": "Positive feedback is given for the app's ability to provide data for fund analysis and comparison, and for its US stock investment features. However, some users request improvements in portfolio section complexity and manual tracking options.",
         "review_count": 8
       },
       {
-        "name": "Account Management & KYC",
-        "description": "Complaints related to account closure issues, balance refunds, and a complex or lengthy KYC process.",
-        "review_count": 5
-      },
-      {
-        "name": "Investment Features & Data",
-        "description": "Positive feedback on data analysis, tracking capabilities, and investment in US stocks, alongside requests for new features like basket investing.",
-        "review_count": 5
+        "name": "Account & Transaction Issues",
+        "description": "Users are reporting problems with failed payments, money not being credited or refunded, and accounts being closed without explanation or balance refund.",
+        "review_count": 8
       }
     ],
     "top_themes": [
       "Customer Support & Issue Resolution",
       "App Functionality & User Experience",
-      "Charges & Fees"
+      "Charges & Fees Transparency"
     ],
     "quotes": [
       {
-        "text": "is platform me sabse ghatiya support milta he koy call nehi lagta he sirf ai se cunnect hota he koy resolution nehi milta koy call back nehi hota",
+        "text": "worst customer support indmoney has.. pathetic.. I want to close my account they aren't helping.",
         "rating": 1
-      },
-      {
-        "text": "The interface is very much cluttered and font size is kind of very bigger. it's good to track india stock, US stocks and Mutual fund all in one place which is good but it doesn't provide rich UI. Please check all your competitors UI like Zerodha, Groww where you feel so much difference. The font is too much bigger and UI is very bad. also, the website is even worse since most of the options are not there at all.",
-        "rating": 2
       },
       {
         "text": "Warning ⚠️ I bought 15 shares ranging from ₹1 to ₹25 and when I sold them they charged DP Charges of ₹14+18% GST on every Share I sold. My wallet balance got in Negative. The problem is that They won't tell you all this before adding funds in your Demat wallet. Everything is hidden beneath FAQ pages if you dig. Invest in Mutual funds to avoid all hidden charges.",
         "rating": 1
+      },
+      {
+        "text": "Finally, an app that gives a real, consolidated view of my net worth. The automatic tracking is incredibly efficient",
+        "rating": 5
       }
     ],
-    "note": "User feedback over the past 10 weeks indicates significant challenges with customer support, with many users reporting unresolved issues and difficulty reaching human agents. The app's user experience is also a concern, with complaints about a cluttered interface, complex navigation, and missing features. Users are also expressing frustration over perceived hidden charges and brokerage fees, particularly for US stock investments. While some positive feedback exists regarding data analysis and US stock investment capabilities, these are overshadowed by critical issues impacting user trust and satisfaction. Addressing these core pain points is crucial for improving retention and overall app perception.",
+    "note": "User feedback over the past 10 weeks indicates significant pain points around customer support responsiveness and issue resolution, with many users reporting unresolved financial transactions and closed tickets. Transparency around charges and fees, especially for US stocks, remains a concern, leading to user frustration and distrust. While the app's core functionality for investment analysis and US stock trading is appreciated, recent updates have negatively impacted user experience, with issues in portfolio tracking, UPI payments, and KYC processes. Addressing these core areas is crucial for improving user satisfaction and retention.",
     "actions": [
-      "Implement a tiered customer support system with clear escalation paths to human agents for complex issues, and ensure timely callbacks.",
-      "Conduct a UX audit focusing on simplifying the interface, improving navigation, and addressing font size and clutter concerns, benchmarking against competitors like Zerodha and Groww.",
-      "Review and clearly communicate all charges and fees associated with US stock trading and other transactions, ensuring transparency upfront within the app and on the website."
+      "Implement a tiered customer support system with clear SLAs for ticket resolution, prioritizing financial transaction issues and ensuring no tickets are closed without explicit user confirmation of resolution.",
+      "Conduct a thorough review of all fee structures, particularly for US stocks and low-value trades, and ensure all charges are prominently displayed within the app before a transaction is confirmed.",
+      "Prioritize fixing the reported issues with the recent app update, specifically focusing on the portfolio refresh mechanism, UPI payment failures, and the KYC process, and consider a rollback or phased rollout for problematic features."
     ]
   },
   "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
@@ -64,12 +64,12 @@
   ],
   "source_links": [
     {
-      "label": "SEBI Mutual Fund Regulations",
-      "url": "https://www.sebi.gov.in/legal/regulations/aug-1996/sebi-mutual-fund-regulations-1996_11603.html"
+      "label": "SEBI — Mutual Funds Regulations",
+      "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=27&smid=0"
     },
     {
-      "label": "AMFI — Exit Load explained",
-      "url": "https://www.amfiindia.com/investor-corner/knowledge-center/exit-load.html"
+      "label": "AMFI India — Investor Resources",
+      "url": "https://www.amfiindia.com"
     }
   ],
   "last_checked": "2026-03-23"
