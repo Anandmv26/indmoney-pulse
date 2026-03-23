@@ -13,19 +13,6 @@ MAX_TOKENS = 2000
 FEE_SCENARIO = "mutual fund exit load on the INDmoney platform"
 MAX_BULLETS = 6
 MIN_BULLETS = 4
-APPROVED_SOURCE_DOMAINS = ["sebi.gov.in", "amfiindia.com", "indmoney.com"]
-
-# --- Hardcoded fallback sources (verified working URLs) ---
-FALLBACK_SOURCES = [
-    {
-        "label": "SEBI — Mutual Funds Regulations",
-        "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=27&smid=0"
-    },
-    {
-        "label": "AMFI India — Investor Resources",
-        "url": "https://www.amfiindia.com"
-    }
-]
 
 # --- Prompt template ---
 PROMPT_TEMPLATE = f"""You are a financial content writer for a regulated Indian fintech platform.
@@ -39,19 +26,13 @@ Rules:
 - Forbidden words: recommend, suggest, avoid, best, worst, better, worse, should, must, always, never.
 - Do not compare this fee to fees on any other platform or app.
 - Do not provide investment advice of any kind.
-- Provide exactly 2 official source links. Sources must be from these domains only:
-  sebi.gov.in, amfiindia.com, or indmoney.com/help
 
 Return ONLY valid JSON. No markdown, no explanation, no preamble.
 
 JSON schema:
 {{
   "scenario": "string",
-  "bullets": ["string", "string", "string", "string"],
-  "source_links": [
-    {{ "label": "string", "url": "string" }},
-    {{ "label": "string", "url": "string" }}
-  ]
+  "bullets": ["string", "string", "string", "string"]
 }}"""
 
 
@@ -110,8 +91,8 @@ def validate(output: dict) -> dict:
             f"Expected {MIN_BULLETS}-{MAX_BULLETS} bullets, got {bullet_count}"
         )
 
-    # Always use verified fallback sources, as Gemini often hallucinates URLs
-    output["source_links"] = FALLBACK_SOURCES
+    # Remove any source_links Gemini may have returned
+    output.pop("source_links", None)
 
     # Add last_checked field
     output["last_checked"] = date.today().isoformat()

@@ -18,7 +18,7 @@ def format_entry(payload: dict) -> str:
     
     fee_scenario = payload["fee_scenario"]
     bullets = "\n".join(f"• {b}" for b in payload["explanation_bullets"])
-    sources = "\n".join(f"- {s['label']}: {s['url']}" for s in payload["source_links"])
+
     
     return f"""---
 Date: {payload["date"]}
@@ -35,8 +35,7 @@ Fee Scenario: {fee_scenario}
 Explanation:
 {bullets}
 
-Sources:
-{sources}
+
 
 Last checked: {payload["last_checked"]}
 ---"""

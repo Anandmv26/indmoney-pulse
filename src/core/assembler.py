@@ -19,7 +19,7 @@ def assemble(pulse: dict, fee: dict) -> dict:
         },
         "fee_scenario": fee["scenario"],
         "explanation_bullets": fee["bullets"],
-        "source_links": fee["source_links"],
+
         "last_checked": fee["last_checked"],
     }
 
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     dummy_fee = {
         "scenario": "test scenario",
         "bullets": ["b1", "b2", "b3", "b4"],
-        "source_links": [{"label": "l", "url": "u"}],
+
         "last_checked": date.today().isoformat(),
     }
     result = run(dummy_pulse, dummy_fee)
