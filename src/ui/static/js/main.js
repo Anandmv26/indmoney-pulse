@@ -30,10 +30,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     async function loadData() {
         try {
-            const [payloadRes, statusRes] = await Promise.all([
-                fetch("/api/payload"),
-                fetch("/api/status")
-            ]);
+            // Fetch payload first, because this endpoint triggers the server
+            // to load the data from disk and update the server-side status to 'Ready'
+            const payloadRes = await fetch("/api/payload");
+            const statusRes = await fetch("/api/status");
 
             const statusData = await statusRes.json();
             updateStatusUI(statusData);
