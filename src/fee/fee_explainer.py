@@ -110,21 +110,8 @@ def validate(output: dict) -> dict:
             f"Expected {MIN_BULLETS}-{MAX_BULLETS} bullets, got {bullet_count}"
         )
 
-    # Check source_links count — replace with fallback if not exactly 2
-    source_links = output.get("source_links", [])
-    if len(source_links) != 2:
-        output["source_links"] = FALLBACK_SOURCES
-    else:
-        # Check each URL contains an approved domain
-        all_approved = True
-        for link in source_links:
-            url = link.get("url", "")
-            if not any(domain in url for domain in APPROVED_SOURCE_DOMAINS):
-                all_approved = False
-                break
-
-        if not all_approved:
-            output["source_links"] = FALLBACK_SOURCES
+    # Always use verified fallback sources, as Gemini often hallucinates URLs
+    output["source_links"] = FALLBACK_SOURCES
 
     # Add last_checked field
     output["last_checked"] = date.today().isoformat()
