@@ -15,15 +15,15 @@ MAX_BULLETS = 6
 MIN_BULLETS = 4
 APPROVED_SOURCE_DOMAINS = ["sebi.gov.in", "amfiindia.com", "indmoney.com"]
 
-# --- Hardcoded fallback sources ---
+# --- Hardcoded fallback sources (verified working URLs) ---
 FALLBACK_SOURCES = [
     {
-        "label": "SEBI Mutual Fund Regulations",
-        "url": "https://www.sebi.gov.in/legal/regulations/aug-1996/sebi-mutual-fund-regulations-1996_11603.html"
+        "label": "SEBI — Mutual Funds Regulations",
+        "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=27&smid=0"
     },
     {
-        "label": "AMFI — Exit Load explained",
-        "url": "https://www.amfiindia.com/investor-corner/knowledge-center/exit-load.html"
+        "label": "AMFI India — Investor Resources",
+        "url": "https://www.amfiindia.com"
     }
 ]
 
