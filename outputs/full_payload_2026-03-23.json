@@ -3,64 +3,64 @@
   "weekly_pulse": {
     "themes": [
       {
-        "name": "Customer Support & Resolution",
-        "description": "Users report tickets being closed without resolution, lack of a contact number, and poor responsiveness from the support team.",
-        "review_count": 18
+        "name": "Customer Support & Issue Resolution",
+        "description": "Users frequently complain about poor customer support, lack of timely resolution, unresponsiveness, and difficulty in contacting support agents.",
+        "review_count": 17
       },
       {
-        "name": "Transactional & Fund Reliability",
-        "description": "Issues with failed payments, delayed refunds, money debited but not credited to NPS/MF, and technical glitches causing negative wallet balances.",
+        "name": "App Functionality & User Experience",
+        "description": "Reviews highlight issues with app interface, complexity, cluttered design, font size, missing features, and glitches affecting trading and payments.",
         "review_count": 15
       },
       {
-        "name": "UI/UX & Feature Regression",
-        "description": "Negative feedback on the new update, specifically regarding cluttered interface, large fonts, and the removal of favorite tracking features like EPF/NPS details.",
-        "review_count": 12
-      },
-      {
-        "name": "Fee Transparency & Charges",
-        "description": "Complaints regarding hidden DP charges, unexpected brokerage on US stocks, and discrepancies between advertised and actual MTF interest rates.",
+        "name": "Charges & Fees",
+        "description": "Users express dissatisfaction with hidden charges, brokerage fees, and unexpected deductions, particularly for US stocks and certain transactions.",
         "review_count": 8
       },
       {
-        "name": "Onboarding & KYC Complexity",
-        "description": "Frustration with the Federal Bank account opening process, slow KYC verification, and lack of support for NRI US stock accounts.",
-        "review_count": 6
+        "name": "Account Management & KYC",
+        "description": "Complaints related to account closure issues, balance refunds, and a complex or lengthy KYC process.",
+        "review_count": 5
+      },
+      {
+        "name": "Investment Features & Data",
+        "description": "Positive feedback on data analysis, tracking capabilities, and investment in US stocks, alongside requests for new features like basket investing.",
+        "review_count": 5
       }
     ],
     "top_themes": [
-      "Customer Support & Resolution",
-      "Transactional & Fund Reliability",
-      "UI/UX & Feature Regression"
+      "Customer Support & Issue Resolution",
+      "App Functionality & User Experience",
+      "Charges & Fees"
     ],
     "quotes": [
       {
-        "text": "This app haven't customer care contact numbers. How to reach you with out customer care contact numbers.",
+        "text": "is platform me sabse ghatiya support milta he koy call nehi lagta he sirf ai se cunnect hota he koy resolution nehi milta koy call back nehi hota",
         "rating": 1
       },
       {
-        "text": "The interface is very much cluttered and font size is kind of very bigger.",
+        "text": "The interface is very much cluttered and font size is kind of very bigger. it's good to track india stock, US stocks and Mutual fund all in one place which is good but it doesn't provide rich UI. Please check all your competitors UI like Zerodha, Groww where you feel so much difference. The font is too much bigger and UI is very bad. also, the website is even worse since most of the options are not there at all.",
         "rating": 2
       },
       {
-        "text": "My previous tickets (3132454 and 3150933) were closed without any resolution.",
+        "text": "Warning ⚠️ I bought 15 shares ranging from ₹1 to ₹25 and when I sold them they charged DP Charges of ₹14+18% GST on every Share I sold. My wallet balance got in Negative. The problem is that They won't tell you all this before adding funds in your Demat wallet. Everything is hidden beneath FAQ pages if you dig. Invest in Mutual funds to avoid all hidden charges.",
         "rating": 1
       }
     ],
-    "note": "This week's feedback indicates a critical decline in user trust driven by perceived 'black-box' support and transactional failures. A recurring theme is the closure of support tickets without actual resolution, particularly concerning high-value mutual fund allotments and NPS credits. Users are threatening legal action due to these unresolved financial discrepancies. \n\nProduct-wise, the recent UI update has caused significant friction. Users find the new interface cluttered and are specifically frustrated by the removal of granular tracking for EPF and the change in external portfolio refresh logic—moving from a simple OTP to a complex QR code process. Additionally, there is a growing sentiment of 'hidden charges' regarding DP fees and MTF rates (7.5% advertised vs 15% charged), which is driving users toward competitors like Angel One and Groww. \n\nTo stabilize retention, we must address the reliability of the fund settlement pipeline and restore the simplified tracking features that defined the app's early value proposition. Improving support transparency by providing a clear path to human agents is essential to mitigate the 'worst app' sentiment currently trending in the reviews.",
+    "note": "User feedback over the past 10 weeks indicates significant challenges with customer support, with many users reporting unresolved issues and difficulty reaching human agents. The app's user experience is also a concern, with complaints about a cluttered interface, complex navigation, and missing features. Users are also expressing frustration over perceived hidden charges and brokerage fees, particularly for US stock investments. While some positive feedback exists regarding data analysis and US stock investment capabilities, these are overshadowed by critical issues impacting user trust and satisfaction. Addressing these core pain points is crucial for improving retention and overall app perception.",
     "actions": [
-      "Implement a 'Call Me Back' or live chat escalation feature for high-value transactional issues to address the lack of accessible support.",
-      "Revert the external mutual fund portfolio refresh logic to an OTP-based system or simplify the current QR code requirement to reduce user friction.",
-      "Conduct a pricing audit and update the UI to explicitly show DP charges and MTF rates before trade execution to improve fee transparency."
+      "Implement a tiered customer support system with clear escalation paths to human agents for complex issues, and ensure timely callbacks.",
+      "Conduct a UX audit focusing on simplifying the interface, improving navigation, and addressing font size and clutter concerns, benchmarking against competitors like Zerodha and Groww.",
+      "Review and clearly communicate all charges and fees associated with US stock trading and other transactions, ensuring transparency upfront within the app and on the website."
     ]
   },
-  "fee_scenario": "Mutual fund exit load on the INDmoney platform",
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
   "explanation_bullets": [
-    "Exit load is a fee charged by Asset Management Companies when an investor redeems or switches out of a mutual fund scheme within a specified timeframe.",
-    "The specific percentage of the exit load and the duration of the holding period vary according to the individual mutual fund scheme's offer document.",
-    "INDmoney displays the applicable exit load details for each mutual fund scheme on the platform's fund details page.",
-    "The exit load amount is deducted from the Net Asset Value of the units being redeemed, resulting in a lower final payout to the investor.",
-    "Asset Management Companies use exit loads to manage the liquidity requirements of the fund and to account for transaction costs associated with early redemptions."
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the lock-in period for its applicability are determined by the Asset Management Company (AMC) of the specific mutual fund scheme.",
+    "INDmoney, as a platform, facilitates the redemption process and displays the applicable exit load as per the fund's scheme information document.",
+    "If units are redeemed within the stipulated exit load period, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is typically a percentage of the Net Asset Value (NAV) at the time of redemption."
   ],
   "source_links": [
     {
