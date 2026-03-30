@@ -1,0 +1,66 @@
+{
+  "date": "2026-03-30",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "App Performance & User Experience",
+        "description": "Reviews discussing app speed, smoothness, crashes, UI/UX design, and ease of use.",
+        "review_count": 18
+      },
+      {
+        "name": "Customer Support & Issue Resolution",
+        "description": "Feedback related to the responsiveness, effectiveness, and availability of customer support, including unresolved issues and account closure difficulties.",
+        "review_count": 15
+      },
+      {
+        "name": "Investment Features & Functionality",
+        "description": "Comments on specific investment features like US stocks, mutual funds (SIPs, holdings, NAVs), F&O, and manual tracking, including missing features and integration issues.",
+        "review_count": 14
+      },
+      {
+        "name": "Charges & Fees",
+        "description": "User concerns about hidden charges, brokerage fees, DP charges, and the overall cost of using the platform.",
+        "review_count": 6
+      },
+      {
+        "name": "Account Management & Verification",
+        "description": "Issues related to KYC processes, bank account linking, loan foreclosure options, and account closure.",
+        "review_count": 5
+      }
+    ],
+    "top_themes": [
+      "App Performance & User Experience",
+      "Customer Support & Issue Resolution",
+      "Investment Features & Functionality"
+    ],
+    "quotes": [
+      {
+        "text": "Don’t use this application. It’s very poor. in futures and options, nothing is as user-friendly as Zerodha. They have added too many features and now the app doesn’t work properly. It’s very slow and takes a long time to process. In today’s world, who would like something that works like a tortoise?",
+        "rating": 1
+      },
+      {
+        "text": "worst customer support indmoney has.. pathetic.. I want to close my account they aren't helping.",
+        "rating": 1
+      },
+      {
+        "text": "INDmoney is an exceptional all-in-one financial super-app. It simplifies tracking my entire net worth, from Indian stocks and mutual funds to EPF and bank balances, all in one sleek dashboard. The standout feature is the seamless US stock investing, allowing fractional shares with zero brokerage. The interface is intuitive, and the real-time insights into my spending and investment goals are incredibly helpful.",
+        "rating": 5
+      }
+    ],
+    "note": "User feedback over the past 10 weeks highlights a split in experience. While many appreciate INDmoney as an all-in-one financial super-app with strong US stock investing capabilities and a smooth UI, a significant portion of users are struggling with app performance issues, including slowness and crashes, leading to financial losses. Customer support is a major pain point, with frequent complaints about unresolved issues, unhelpful responses, and difficulties in closing accounts. Specific investment features like MF holdings sync, daily SIPs, and basket purchases are also areas for improvement. Charges and KYC processes are also causing user frustration. Addressing performance and support issues is critical for user retention and satisfaction.",
+    "actions": [
+      "Investigate and optimize app performance to address reported slowness and crashes, particularly for F&O and trading functionalities.",
+      "Implement a tiered customer support system with clear escalation paths and response time SLAs for critical issues like account closure and financial losses.",
+      "Review and enhance the user experience for mutual fund features, specifically addressing the ability to download holding statements, track daily SIPs, and enable basket purchases."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-03-30"
+}
