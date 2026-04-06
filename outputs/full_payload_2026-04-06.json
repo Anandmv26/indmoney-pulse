@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-06",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "Customer Support & Issue Resolution",
+        "description": "Users frequently report issues with slow response times, lack of resolution, and poor customer service, impacting their ability to trade, withdraw funds, or resolve technical problems.",
+        "review_count": 17
+      },
+      {
+        "name": "App Performance & Technical Issues",
+        "description": "Reviews highlight problems with app speed, frequent crashes, technical errors leading to financial losses, and features not working as expected, such as charts not displaying or transactions failing.",
+        "review_count": 15
+      },
+      {
+        "name": "User Interface & Feature Set",
+        "description": "Users comment on the app's complexity, desire for simplification (comparing to Groww), and requests for advanced trading features (like OI data, option chain bars) and broader investment options (commodities, bonds, PPF).",
+        "review_count": 13
+      },
+      {
+        "name": "Withdrawal & Fund Management",
+        "description": "Several users express frustration with delays or inability to withdraw funds from their wallet or trading account, and issues with money being debited without clear explanation or refund.",
+        "review_count": 8
+      },
+      {
+        "name": "Loan & Marketing Practices",
+        "description": "Some users complain about intrusive personal loan pop-ups and excessive follow-up calls after taking loans.",
+        "review_count": 4
+      }
+    ],
+    "top_themes": [
+      "Customer Support & Issue Resolution",
+      "App Performance & Technical Issues",
+      "User Interface & Feature Set"
+    ],
+    "quotes": [
+      {
+        "text": "Do you have a support mechanism. Same old issue. No support and response on the query raised. Real time issue resolution is a problem at your end.",
+        "rating": 1
+      },
+      {
+        "text": "I suffered a loss due to their technical error. when i deposited money A fake balance was shown in my account, and based on that I made a transaction. support says it was a technical issue and now you’ve stopped responding. Who will bear this loss? I need a clear answer.",
+        "rating": 1
+      },
+      {
+        "text": "INDmoney is an exceptional all-in-one financial super-app. It simplifies tracking my entire net worth, from Indian stocks and mutual funds to EPF and bank balances, all in one sleek dashboard. The standout feature is the seamless US stock investing, allowing fractional shares with zero brokerage. The interface is intuitive, and the real-time insights into my spending and investment goals are incredibly helpful.",
+        "rating": 5
+      }
+    ],
+    "note": "User feedback over the past 10 weeks highlights significant concerns regarding customer support responsiveness and issue resolution, alongside recurring technical glitches and performance issues that have led to user frustration and financial losses. While the app is praised for its all-in-one tracking capabilities and US stock investing features, many users find the interface complex and are requesting advanced trading functionalities. Delays in fund withdrawals and aggressive loan marketing practices are also notable pain points. Addressing these core issues is crucial for improving user satisfaction and retention.",
+    "actions": [
+      "Implement a tiered customer support system with clear SLAs for issue resolution, prioritizing technical and financial queries.",
+      "Conduct a thorough performance audit to identify and fix root causes of app crashes, slow processing, and feature malfunctions, especially for trading functionalities.",
+      "Prioritize UI/UX simplification and explore adding requested advanced trading features (e.g., OI data, improved option chain visualization) to compete with platforms like Groww and Zerodha."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-04-06"
+}
