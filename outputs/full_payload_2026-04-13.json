@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-13",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "US Stocks Trading Issues",
+        "description": "Users are reporting significant problems with trading US stocks, including transaction failures, fund deposit/withdrawal delays, and lack of essential features like order depth.",
+        "review_count": 10
+      },
+      {
+        "name": "Customer Support & Issue Resolution",
+        "description": "A recurring theme is the dissatisfaction with customer support, citing unresponsiveness, generic replies, unresolved issues, and delays in problem resolution.",
+        "review_count": 13
+      },
+      {
+        "name": "App Functionality & User Experience (UX/UI)",
+        "description": "Users are experiencing bugs, confusing interfaces, missing features, and unwanted changes in app updates, impacting their overall experience.",
+        "review_count": 15
+      },
+      {
+        "name": "Loan & Payment Issues",
+        "description": "Concerns are raised about loan interest rates, payment gateway failures, and aggressive loan reminder calls.",
+        "review_count": 5
+      },
+      {
+        "name": "Feature Requests & Improvements",
+        "description": "Users are suggesting new features and improvements, such as adding more banks, insurance aggregation, ETF options, and advanced trading tools.",
+        "review_count": 10
+      }
+    ],
+    "top_themes": [
+      "App Functionality & User Experience (UX/UI)",
+      "Customer Support & Issue Resolution",
+      "US Stocks Trading Issues"
+    ],
+    "quotes": [
+      {
+        "text": "The app is not functioning as expected. For US stocks even after plaving order and adding otp it says somwthing went wrong even though the transaction went thru.",
+        "rating": 1
+      },
+      {
+        "text": "Don't invest in US stocks via INDMoney. Very bad customer support. I initiated transaction for 25K, but it never reached by trading account. I am still waiting for it to be credited from more than 3 weeks.",
+        "rating": 1
+      },
+      {
+        "text": "The old interface is too good for us. The new update interface is very complicated.",
+        "rating": 1
+      }
+    ],
+    "note": "User feedback highlights critical issues with US stocks trading, including transaction failures and significant delays in fund processing. Customer support remains a major pain point, with users reporting unresponsiveness and unresolved issues. The app's UI/UX is also a concern, with many finding it confusing and requesting simplification. While some users appreciate the app's core functionality and beginner-friendliness, these persistent issues are impacting overall satisfaction and driving users to competitors. Addressing US stock trading reliability and improving customer support responsiveness are paramount.",
+    "actions": [
+      "Investigate and resolve all reported US stock transaction failures and fund processing delays, providing clear communication on TATs and root causes.",
+      "Implement a tiered customer support system to ensure faster and more effective resolution of critical issues, with clear escalation paths.",
+      "Conduct a UX audit focused on simplifying the app's interface, particularly for trading functionalities, and address user feedback on the new update's complexity."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-04-13"
+}
