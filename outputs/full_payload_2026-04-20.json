@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-20",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "App Performance & User Interface (UI/UX)",
+        "description": "Issues related to app speed, crashes, confusing interfaces, outdated designs, and the impact of updates on user experience.",
+        "review_count": 18
+      },
+      {
+        "name": "Trading Functionality & Features",
+        "description": "Feedback on missing trading features, order execution problems, trading charges, and the availability of specific trading instruments.",
+        "review_count": 17
+      },
+      {
+        "name": "Customer Support & Issue Resolution",
+        "description": "Complaints about slow or unhelpful customer support, lack of direct contact options, and unresolved issues.",
+        "review_count": 13
+      },
+      {
+        "name": "Onboarding & Account Management",
+        "description": "Difficulties with account opening, linking bank accounts, changing personal details, and fund deposit/withdrawal delays.",
+        "review_count": 10
+      },
+      {
+        "name": "US Stocks & International Investments",
+        "description": "Specific issues related to investing in US stocks, including exchange rate discrepancies, transaction failures, and fund transfer times.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "App Performance & User Interface (UI/UX)",
+      "Trading Functionality & Features",
+      "Customer Support & Issue Resolution"
+    ],
+    "quotes": [
+      {
+        "text": "Unreasonably high MTF charges compared to competitors. INDmoney charges 0.1% uncapped brokerage on MTF trades. On a ₹7.7L trade, I was charged around ₹775 for a single order. plus 1k of additional charges (approx)Meanwhile, platforms like Zerodha cap brokerage at around ₹20 per order while offering similar or better margin benefits. If any one are planning to use MTF, think twice. This pricing model can quietly eat into your capital. these guys are looting like anything",
+        "rating": 1
+      },
+      {
+        "text": "The USD conversion via ICICI Bank is misleading. The exchange rate shown in the INDMoney app is not the rate actually applied—there’s a difference of about ₹0.30 per dollar, with the bank charging a higher rate. When I contacted ICICI Bank, they stated that since this is a third-party transaction, they cannot address the discrepancy. On the other hand, INDMoney’s support team was unable to provide a clear explanation for the difference in exchange rates.",
+        "rating": 1
+      },
+      {
+        "text": "I have sent INDmoney a feature request to improve a certain US stocks UX.. they implemented that in just 1 week! I think I can trust this app. I am a Mobile developer myself, I keep USB debugging ON because I need it for my work, but INDmoney being a payment app doesnt unnecessarily force logout me for disabling USBdebugging, they simply stop me when making UPI payments.. this is such a clever and impressive attention to detail! Seems like this app is built by devs who care about their users UX!",
+        "rating": 5
+      }
+    ],
+    "note": "User feedback highlights significant concerns regarding app performance and UI/UX, with many users finding recent updates confusing or detrimental to their experience. Trading functionality is another major area of concern, with specific requests for features like commodity trading and trailing stop-loss, alongside complaints about high MTF charges and order execution issues. Customer support is frequently cited as a pain point, with users experiencing long wait times, unhelpful responses, and unresolved issues. There are also recurring problems with onboarding, account management, and specific issues with US stock investments, including fund transfer delays and exchange rate discrepancies. Addressing these core areas will be crucial for improving user satisfaction.",
+    "actions": [
+      "Investigate and address the high MTF charges and explore competitive pricing models or clearer communication around these fees.",
+      "Review recent UI/UX updates, particularly the 'white screen' issue and chart interface changes, and consider user feedback for future design decisions. Prioritize stability and intuitive navigation.",
+      "Enhance customer support responsiveness by implementing direct call options, reducing wait times, and ensuring support agents are empowered to provide clearer, more effective resolutions to user issues."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-04-20"
+}
