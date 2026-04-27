@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-27",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "Customer Support & Issue Resolution",
+        "description": "Users frequently complain about poor customer support, long ticket resolution times, and a lack of effective communication when issues arise, particularly with fund transfers and trading problems.",
+        "review_count": 17
+      },
+      {
+        "name": "User Interface (UI) & User Experience (UX)",
+        "description": "Concerns about frequent UI changes, confusing navigation, difficulty in finding features, and the removal of previously liked elements, impacting ease of use and intraday trading.",
+        "review_count": 16
+      },
+      {
+        "name": "Trading Functionality & Features",
+        "description": "Issues related to trading execution, missing features like stop-loss/target orders, market order depth, price accuracy, and concerns about high MTF charges and misleading USD conversion rates.",
+        "review_count": 13
+      },
+      {
+        "name": "App Performance & Bugs",
+        "description": "Users report app crashes, hangs, glitches, double transaction entries, and issues with specific payment gateways or account linking.",
+        "review_count": 8
+      },
+      {
+        "name": "Rewards & Charges",
+        "description": "Complaints about reduced cashback rates, misleading referral programs, unexpected charges (like minimum balance fees or high MTF charges), and issues with reward fulfillment.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "Customer Support & Issue Resolution",
+      "User Interface (UI) & User Experience (UX)",
+      "Trading Functionality & Features"
+    ],
+    "quotes": [
+      {
+        "text": "worst app ever im so sick of this app no customer support at all",
+        "rating": 1
+      },
+      {
+        "text": "I loved the user interface up until today. but for some reason, they changed the background colour of the chart, and moved the overview and other quick categories to a scroll option. and the buy and sell became much smaller and this is annoying during intraday. absolutely horrendous ui decision making",
+        "rating": 1
+      },
+      {
+        "text": "Unreasonably high MTF charges compared to competitors. INDmoney charges 0.1% uncapped brokerage on MTF trades. On a ₹7.7L trade, I was charged around ₹775 for a single order. plus 1k of additional charges (approx)Meanwhile, platforms like Zerodha cap brokerage at around ₹20 per order while offering similar or better margin benefits. If any one are planning to use MTF, think twice. This pricing model can quietly eat into your capital. these guys are looting like anything",
+        "rating": 1
+      }
+    ],
+    "note": "User feedback over the past 10 weeks highlights significant pain points in customer support and issue resolution, with many users experiencing long delays and unsatisfactory responses for critical issues like fund transfers. The UI/UX is another major area of concern, with frequent, often confusing, changes disrupting user workflows and making the app less intuitive. Trading functionality, including high MTF charges and missing features, also remains a key concern. While some users appreciate specific features like instant withdrawals, the overall sentiment is impacted by these recurring issues. Addressing support response times and stabilizing the UI are critical for improving user satisfaction and retention.",
+    "actions": [
+      "Implement a tiered customer support system to prioritize and expedite resolution for critical issues like fund transfer delays and trading errors.",
+      "Conduct a thorough UX audit focusing on the recent UI changes, gathering user feedback on specific pain points, and prioritizing stability and intuitive navigation over frequent redesigns.",
+      "Review and benchmark MTF charges against competitors, and provide clearer explanations of all trading-related fees and charges within the app to improve transparency."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-04-27"
+}
