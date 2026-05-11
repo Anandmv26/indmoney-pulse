@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-11",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "UI/UX and App Performance",
+        "description": "Issues related to the app's user interface, navigation, glitches, crashes, and overall performance, including recent UI updates.",
+        "review_count": 25
+      },
+      {
+        "name": "Customer Support and Issue Resolution",
+        "description": "Complaints about slow, unresponsive, or unhelpful customer support, including bot responses and lack of human interaction.",
+        "review_count": 19
+      },
+      {
+        "name": "US Stock Investing Issues",
+        "description": "Problems specifically related to investing in US stocks, including account opening, fund transfers, hidden charges, and transaction errors.",
+        "review_count": 15
+      },
+      {
+        "name": "Feature Functionality and Missing Features",
+        "description": "Issues with existing features not working as expected, or the absence of desired features like goal tracking, specific indicators, or order types.",
+        "review_count": 13
+      },
+      {
+        "name": "Charges and Fees",
+        "description": "Concerns about unexpected, hidden, or high charges and fees associated with transactions, loans, or account management.",
+        "review_count": 9
+      }
+    ],
+    "top_themes": [
+      "UI/UX and App Performance",
+      "Customer Support and Issue Resolution",
+      "US Stock Investing Issues"
+    ],
+    "quotes": [
+      {
+        "text": "DO NOT USE! Entire US Portfolio WIPED OUT to ZERO! Absolutely terrible experience. I logged in today to find my entire US stock portfolio and my wallet balance completely empty. It is showing a zero balance! How can a financial app that holds people's hard-earned money just have everything disappear? There is zero communication, no immediate customer support, and no explanation for this technical disaster. It is incredibly stressful and panic-inducing to see your investments just vanish.",
+        "rating": 1
+      },
+      {
+        "text": "very poor customer service they redirect you yo to whatsapp chat which never replies, please go for other apps like money view",
+        "rating": 1
+      },
+      {
+        "text": "The InstaCash feature has helped me a lot in my hard times. But I needed to foreclose my loans and I don't see the option to foreclose anymore. Can you please help me locate it?",
+        "rating": 3
+      }
+    ],
+    "note": "User feedback highlights significant pain points around UI/UX and app performance, particularly with recent updates causing confusion and glitches. Customer support remains a critical area for improvement, with frequent complaints about unresponsiveness and ineffective resolution. US stock investing features, including account opening and transaction issues, are also a major concern. While some users appreciate the app's core functionality, the overall experience is being hampered by these recurring issues. Addressing these themes proactively will be crucial for user retention and satisfaction.",
+    "actions": [
+      "Conduct a thorough review of recent UI updates to identify and fix specific glitches and navigation issues, prioritizing a return to a more intuitive user experience.",
+      "Implement a tiered customer support system with clear escalation paths for complex issues, and explore options for faster human agent response times beyond chatbots.",
+      "Investigate and document all potential hidden charges and fees associated with US stock transactions, and ensure clear, upfront communication to users."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-05-11"
+}
