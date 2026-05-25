@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-25",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "User Interface (UI) and User Experience (UX) Issues",
+        "description": "Users frequently complain about frequent UI changes, confusing interfaces, and a perceived degradation in user experience, with specific mentions of 'ugly' and 'unfriendly' updates.",
+        "review_count": 16
+      },
+      {
+        "name": "US Stock Investment Functionality and Performance",
+        "description": "Concerns are raised about the process of investing in US stocks, including account creation issues, slow live price updates, difficulties in adding funds, and the absence of certain features like ETF purchases.",
+        "review_count": 15
+      },
+      {
+        "name": "Customer Support and Issue Resolution",
+        "description": "A significant number of reviews highlight poor customer support, lack of response, bot-generated replies, and delays in resolving issues, leading to user frustration and distrust.",
+        "review_count": 12
+      },
+      {
+        "name": "Investment Analysis and Features",
+        "description": "Users request more detailed analysis tools for stocks, suggestions for investments, and specific features like ETF purchase options, order book visibility, and the return of previous functionalities.",
+        "review_count": 8
+      },
+      {
+        "name": "Trust and Security Concerns",
+        "description": "Several users express significant trust issues, citing lost funds, unethical practices like tricking investors, and data privacy breaches due to excessive data collection.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "User Interface (UI) and User Experience (UX) Issues",
+      "US Stock Investment Functionality and Performance",
+      "Customer Support and Issue Resolution"
+    ],
+    "quotes": [
+      {
+        "text": "bunch of losers running the show. don't trust this app. I lost my 5200 usd for 4 months. they were unable to locate the funds. need to take legal help to get my money back. absolutely pathetic app. no customer support. noone you can talk to for ur issues. stay away.",
+        "rating": 1
+      },
+      {
+        "text": "Ui update is ugly and very user unfriendly You need to demote your product manager to, an Intern or something!! because he has no damn idea what good UI Ux means, and DONT FIX SOMETHING THAT IS NOT BROKEN!! is like the first rule of software or any development!!!",
+        "rating": 1
+      },
+      {
+        "text": "The newly introduced section in US equities - Tax Implication(What happens if you sell today), it's super useful 👌. I can see the STCG, LTGC and Gross Profit at one place, made life easier now without navigating too much.",
+        "rating": 5
+      }
+    ],
+    "note": "User feedback over the past 10 weeks indicates significant friction points, particularly around UI/UX and US stock investment functionality. Frequent UI changes are causing user frustration, while US stock investment processes, including fund transfers and account creation, are proving problematic. Customer support is a recurring concern, with users reporting slow response times and a lack of effective resolution. While some features like the US equities tax implication section are well-received, the overall sentiment suggests a need to stabilize the UI, streamline US investment flows, and significantly improve support responsiveness. Addressing these core issues is crucial for user retention and trust.",
+    "actions": [
+      "Conduct a thorough review of recent UI/UX changes, prioritizing user feedback on stability and intuitiveness. Consider a rollback or phased reintroduction of elements that have caused significant disruption.",
+      "Investigate and resolve the reported issues with US stock fund transfers, account creation, and live price updates. Prioritize fixing the 'add funds' delay and ensure seamless account opening for new users.",
+      "Implement a system to improve customer support response times and resolution rates. This could involve increasing support staff, enhancing bot capabilities for common queries, or establishing clearer escalation paths for complex issues."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-05-25"
+}
