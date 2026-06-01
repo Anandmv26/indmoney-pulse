@@ -1,0 +1,66 @@
+{
+  "date": "2026-06-01",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "US Stock Investment Experience",
+        "description": "Reviews related to the ease of investing in US stocks, including deposit/withdrawal processes, account opening, and trading.",
+        "review_count": 16
+      },
+      {
+        "name": "Customer Support and Issue Resolution",
+        "description": "Feedback on the effectiveness, responsiveness, and quality of customer support when users encounter issues.",
+        "review_count": 13
+      },
+      {
+        "name": "User Interface (UI) and User Experience (UX)",
+        "description": "Comments on the app's design, navigation, layout changes, and overall ease of use.",
+        "review_count": 11
+      },
+      {
+        "name": "App Functionality and Features",
+        "description": "Feedback on specific features, missing functionalities, and general app performance.",
+        "review_count": 10
+      },
+      {
+        "name": "Referral Programs and Rewards",
+        "description": "User comments regarding referral programs and the rewards associated with them.",
+        "review_count": 2
+      }
+    ],
+    "top_themes": [
+      "US Stock Investment Experience",
+      "Customer Support and Issue Resolution",
+      "User Interface (UI) and User Experience (UX)"
+    ],
+    "quotes": [
+      {
+        "text": "It fails at support. Everything is fine until you encounter any issue. Then it'll take everything in your life to get fixed. Changing rating from 3 stars to 1 due to failed support.",
+        "rating": 1
+      },
+      {
+        "text": "why do you keep changing interfaces and each change is making it worse. 2 years ago the interface was clear and simple everything was just below the stock charts. Now bogus partitions are done to keep clicking and sliding to get any information. bogus updates are depth, my portfolio, overview. kindly merge these three things in one section.",
+        "rating": 1
+      },
+      {
+        "text": "US Stock investment Deposit conversion rate is locked instantly, but during withdrawal the USD to INR conversion happens later and the final exchange rate is informed afterwards. Withdrawal processing also takes a long time. Due to delayed conversion, forex spread and extra charges, even after earning profit in USD I received less INR than my original investment. The withdrawal and conversion process should be more transparent and rates should be locked at the time of withdrawal request.",
+        "rating": 1
+      }
+    ],
+    "note": "User feedback over the past 10 weeks highlights significant pain points in US stock investment processes, particularly around deposit/withdrawal transparency and speed. Customer support remains a critical area for improvement, with numerous complaints about unresponsiveness and ineffective issue resolution. Frequent UI changes are frustrating users, impacting usability and leading to negative sentiment. While the app is praised for its ease of US stock trading and some new features like tax implications, these are overshadowed by core functional and support issues. Addressing these fundamental problems is crucial for user retention and satisfaction.",
+    "actions": [
+      "Improve transparency and speed of USD to INR conversion for withdrawals, potentially by locking rates at the time of withdrawal request.",
+      "Enhance customer support responsiveness and effectiveness by implementing better ticket management, ensuring timely callbacks/emails, and empowering agents to resolve issues.",
+      "Conduct user research and A/B testing before implementing UI changes to ensure they improve, rather than degrade, the user experience. Consider offering theme customization options."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-06-01"
+}
