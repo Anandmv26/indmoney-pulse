@@ -1,0 +1,66 @@
+{
+  "date": "2026-06-08",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "US Stock Investment Issues",
+        "description": "Problems related to opening accounts for US stocks, fund transfers, KYC, banking partnerships, and general usability of the US stock investment feature.",
+        "review_count": 19
+      },
+      {
+        "name": "App Performance & Bugs",
+        "description": "Issues concerning app speed, lagging, crashing, syncing problems, and general bugs affecting user experience.",
+        "review_count": 13
+      },
+      {
+        "name": "Customer Support & Verification",
+        "description": "Complaints about the lack of responsive customer support, difficulty connecting with agents, and issues with verification processes (KYC, nominee updates).",
+        "review_count": 11
+      },
+      {
+        "name": "User Interface & Feature Requests",
+        "description": "Feedback on UI changes, missing features, difficulty accessing certain tabs, and requests for new functionalities.",
+        "review_count": 10
+      },
+      {
+        "name": "Transaction & Fund Management",
+        "description": "Problems with adding/withdrawing money, currency conversion delays, and issues with fund reflection in accounts.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "US Stock Investment Issues",
+      "App Performance & Bugs",
+      "Customer Support & Verification"
+    ],
+    "quotes": [
+      {
+        "text": "facing ekyc problems for open federal account especially regarding occupation issues you have add some more options suitable for unemployed people",
+        "rating": 1
+      },
+      {
+        "text": "I don't use this app because managing trades feels difficult compared to other trading platforms. The main reason is that the Orders and Positions tabs are not easily accessible. It would be much better if the Orders and Positions tabs were permanently fixed in the bottom navigation bar and remained visible whether the user is on the Stocks page or the F&O page.",
+        "rating": 2
+      },
+      {
+        "text": "INDmoney app is HANDLING FINANCIAL TRANSACTIONS. Without customer care support, always, there is a FEAR in customer's mind, in case something goes WRONG, NO ONE is available here to listen the customer instantly. In present scenario, CYBER CRIME is on TOP. 'Raising Ticket System' is a OLD TREND & taking long time to inform any FRAUD case. So, sir, please, implement CUSTOMER CARE SUPPORT (ONE TO ONE) shortly. It will create a FEARLESS & FRIENDLY environment. Regards",
+        "rating": 1
+      }
+    ],
+    "note": "User feedback highlights persistent issues with US stock investments, particularly around KYC, fund transfers, and banking partnerships. App performance remains a concern, with frequent mentions of lagging, bugs, and syncing problems. Customer support and verification processes are a significant pain point, with users struggling to connect with agents and resolve issues. UI changes are also causing frustration, with requests for more intuitive navigation and feature improvements. Addressing these core areas will be crucial for improving user satisfaction and retention.",
+    "actions": [
+      "Streamline the Federal Bank KYC process for US stock investments, potentially by offering alternative verification methods or improving agent availability.",
+      "Investigate and resolve recurring app performance issues, focusing on reducing lag, fixing syncing errors, and improving overall stability.",
+      "Enhance customer support responsiveness by implementing a more efficient ticket resolution system and exploring options for real-time agent assistance."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-06-08"
+}
