@@ -1,0 +1,66 @@
+{
+  "date": "2026-06-15",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "US Stocks - Functionality & Access",
+        "description": "Issues related to adding money, withdrawing money, bank account linking, IPOs, and general functionality for US stock investments.",
+        "review_count": 19
+      },
+      {
+        "name": "App Performance & UI/UX",
+        "description": "Feedback on app speed, stability, syncing issues, UI glitches, and suggestions for UI modernization.",
+        "review_count": 15
+      },
+      {
+        "name": "Customer Support & Issue Resolution",
+        "description": "Complaints about slow or non-existent customer support, unresponsiveness to tickets/emails, and lack of refunds.",
+        "review_count": 10
+      },
+      {
+        "name": "Trading Features & Tools",
+        "description": "Requests for specific trading features like strategy builders, payoff charts, probability of profit, auto TP/SL, and issues with charts/indicators.",
+        "review_count": 8
+      },
+      {
+        "name": "Account Management & Compliance",
+        "description": "Problems with nomination updates, KYC issues, bank account requirements, and general account setup difficulties.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "US Stocks - Functionality & Access",
+      "App Performance & UI/UX",
+      "Customer Support & Issue Resolution"
+    ],
+    "quotes": [
+      {
+        "text": "bhailog bilkul froud app ha ya mat use kro becouse inhonay mera pasay shre sell karnay par bhi nhi diya fake and froud apko sab shi lgega jab apki withdrawal ki barri aigi tabapko milega thenga",
+        "rating": 1
+      },
+      {
+        "text": "I never thought investing in US stock exchange can be super simple. This app enabled me to do so, will very limited knowledge of stocks markets.",
+        "rating": 5
+      },
+      {
+        "text": "The customer care service is extremely very poor and needs signification improvement. in addition u. s stock account linking system has issues, as it appears to add or link multiple account incorrectly. The problem should be resolved as soon as possible.",
+        "rating": 1
+      }
+    ],
+    "note": "User feedback highlights significant challenges with US stock functionality, particularly around adding/withdrawing funds and bank linking. App performance, including syncing and UI glitches, remains a concern, impacting user experience. Customer support responsiveness and issue resolution are critical pain points, with users reporting long delays and lack of refunds. While some users praise the app's ability to simplify US stock investing, these core issues need immediate attention to improve overall satisfaction and trust.",
+    "actions": [
+      "Investigate and resolve the bank account linking issues for US stock investments, ensuring all partner banks are consistently available and functional.",
+      "Prioritize improvements to app performance, focusing on reducing syncing times and addressing UI glitches to create a smoother user experience.",
+      "Enhance customer support response times and resolution processes, particularly for issues related to withdrawals and refunds, to rebuild user trust."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-06-15"
+}
