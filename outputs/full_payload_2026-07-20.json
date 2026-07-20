@@ -1,0 +1,66 @@
+{
+  "date": "2026-07-20",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "App Performance & Stability Improvements",
+        "description": "Users are reporting significant improvements in app speed, responsiveness, and stability, particularly after recent updates. This includes faster downloads, smoother interactions, and reduced freezing during syncing.",
+        "review_count": 19
+      },
+      {
+        "name": "Cashback & Rewards Issues",
+        "description": "A recurring theme is user dissatisfaction with the cashback and rewards system. Users are frustrated by restrictions on cashback usage (e.g., only for US stocks, not bill payments), unclear terms, and the inability to withdraw earned rewards.",
+        "review_count": 12
+      },
+      {
+        "name": "Customer Support & User Experience",
+        "description": "Many users express frustration with customer support, citing unhelpful chatbots, slow response times, and difficulty reaching human agents. Issues with UI changes, bugs, and complex processes (like KYC) also fall under this theme.",
+        "review_count": 15
+      },
+      {
+        "name": "Feature Functionality & Missing Features",
+        "description": "Users are encountering issues with specific features not working as expected, such as adding mutual funds, unpausing SIPs, withdrawing funds, and managing external mutual funds. There are also requests for new features like tablet optimization and event tracking.",
+        "review_count": 10
+      },
+      {
+        "name": "Account Management & Security Concerns",
+        "description": "This theme covers issues related to account closure, data deletion, unauthorized account openings, and security concerns like OTP issues and harmful app detection during UPI transactions.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "App Performance & Stability Improvements",
+      "Customer Support & User Experience",
+      "Cashback & Rewards Issues"
+    ],
+    "quotes": [
+      {
+        "text": "The most glaring issue right now is the home page: simply scrolling causes the app to automatically click into random items. It’s an idiotic bug that makes the app completely unusable.",
+        "rating": 1
+      },
+      {
+        "text": "This update completely transformed the experience. 🔥 Everything is quicker, downloads finish much faster 💥, and the app feels more reliable than ever.",
+        "rating": 5
+      },
+      {
+        "text": "Your support has been completely unhelpful. I've tried every method suggested by your support AI, but there is still no option to delink an external mutual fund in my Android device.",
+        "rating": 1
+      }
+    ],
+    "note": "Recent updates have significantly improved app performance, with users praising faster downloads and increased stability. However, persistent issues with the cashback system, including restrictions on usage and unclear terms, continue to frustrate users. Customer support remains a pain point, with many reporting unhelpful chatbots and slow response times. Specific feature bugs, such as issues with mutual fund additions and SIPs, also require attention. Addressing these core areas will be crucial for user retention and satisfaction.",
+    "actions": [
+      "Investigate and resolve the reported issues with OTP delivery for mutual fund additions and Federal Bank logins.",
+      "Clarify and simplify the terms and conditions for cashback usage, ensuring transparency and providing clear options for redemption beyond US stocks.",
+      "Enhance customer support by improving chatbot capabilities to handle more complex queries and providing a more accessible escalation path to human agents for critical issues."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-07-20"
+}
