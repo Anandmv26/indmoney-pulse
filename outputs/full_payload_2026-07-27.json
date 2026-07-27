@@ -1,0 +1,66 @@
+{
+  "date": "2026-07-27",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "App Performance and Stability",
+        "description": "Users frequently mention improvements in app speed, download times, and overall stability, but also highlight past issues with syncing, freezing, and unresponsiveness.",
+        "review_count": 23
+      },
+      {
+        "name": "Customer Support and Service",
+        "description": "A significant number of reviews express dissatisfaction with customer support, citing unhelpful chatbots, slow response times, and lack of direct contact options.",
+        "review_count": 17
+      },
+      {
+        "name": "Cashback and Rewards Issues",
+        "description": "Users are confused about how to use earned cashback, report issues with cashback redemption, and feel misled by cashback offers, especially those tied to specific actions like investing in US stocks.",
+        "review_count": 11
+      },
+      {
+        "name": "ITR Filing and Tax Features",
+        "description": "Concerns are raised about the completeness of ITR filing options, the accuracy of tax reports, and the app's handling of user financial data during the ITR process.",
+        "review_count": 5
+      },
+      {
+        "name": "Account Linking and Transaction Issues",
+        "description": "Several users report difficulties in linking bank accounts, receiving OTPs, adding funds, and making transactions, with specific mentions of issues with Federal Bank and Kotak811.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "App Performance and Stability",
+      "Customer Support and Service",
+      "Cashback and Rewards Issues"
+    ],
+    "quotes": [
+      {
+        "text": "The app is soo much faster download. I love💮 the app! But now download💿 faster and more stable, which changes the experience a lot.",
+        "rating": 5
+      },
+      {
+        "text": "After using it for a while, I feel this app has a lot of glitches, and the customer service and other services offered are also really bad. Highly disappointed.",
+        "rating": 1
+      },
+      {
+        "text": "jo cashback hum earn kiye hai, uska karna kya hai, use kyu ho raha? ya fir 2027 me uska achar yane pical dalna hai",
+        "rating": 1
+      }
+    ],
+    "note": "Recent user feedback highlights significant improvements in app performance, with many users praising faster downloads and increased stability. However, customer support remains a major pain point, with frequent complaints about unhelpful chatbots and slow responses. The cashback and rewards system continues to generate confusion and dissatisfaction, with users questioning redemption policies and feeling misled by offers. Addressing these core areas will be crucial for improving user satisfaction and retention.",
+    "actions": [
+      "Enhance chatbot capabilities to provide more accurate and direct solutions, with a clear escalation path to human agents for complex issues.",
+      "Clarify the terms and conditions for cashback and rewards redemption prominently within the app and in promotional materials to avoid user confusion.",
+      "Investigate and resolve persistent issues with bank account linking and OTP generation for specific banks like Federal Bank to ensure seamless transactions."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-07-27"
+}
