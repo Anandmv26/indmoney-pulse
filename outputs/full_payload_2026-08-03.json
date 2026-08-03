@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-03",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "App Performance & Stability Improvements",
+        "description": "Users are reporting significant improvements in app speed, download times, and overall stability, with many noting a reduction in syncing issues and unresponsiveness.",
+        "review_count": 22
+      },
+      {
+        "name": "Customer Support & Issue Resolution",
+        "description": "A recurring theme is dissatisfaction with customer support, citing long resolution times, fake contact numbers, unhelpful chatbots, and a lack of effective problem-solving.",
+        "review_count": 15
+      },
+      {
+        "name": "US Stocks & Investment Features",
+        "description": "Users discuss trading US stocks, including issues with conversion rates, high charges, cashback redemption limitations, and the desire for more investment options like FDs and gold ETFs.",
+        "review_count": 13
+      },
+      {
+        "name": "Data Privacy & Security Concerns",
+        "description": "Several users express serious concerns about data leakage, receiving fraudulent calls after installing the app, and the app's security measures like not having a separate PIN.",
+        "review_count": 6
+      },
+      {
+        "name": "User Interface & Feature Requests",
+        "description": "Feedback includes requests for UI improvements like bold fonts, tablet optimization, search options in holdings, and the addition of new features like home loan tracking and dual-screen modes.",
+        "review_count": 9
+      }
+    ],
+    "top_themes": [
+      "App Performance & Stability Improvements",
+      "Customer Support & Issue Resolution",
+      "US Stocks & Investment Features"
+    ],
+    "quotes": [
+      {
+        "text": "Not to mention being unable to use the app when it's syncing because it literally stops responding until it's done.",
+        "rating": 3
+      },
+      {
+        "text": "Worst customer support experience. Whenever you raise an issue, each support ticket takes 2–3 months, and even then, there's no resolution.",
+        "rating": 1
+      },
+      {
+        "text": "The ITR filling feature is a gamechanger. truly thankful for making it and also keeping it free. thank you!",
+        "rating": 5
+      }
+    ],
+    "note": "Recent user feedback highlights significant positive strides in app performance and stability, with users praising faster downloads and smoother operation. However, customer support remains a critical pain point, with consistent complaints about slow resolution times and ineffective assistance. The US stocks feature continues to be a focus, with users requesting better conversion rates, lower charges, and clearer cashback redemption policies. Data privacy concerns are also emerging. Addressing these support gaps and refining the US stock experience are key priorities.",
+    "actions": [
+      "Investigate and improve the responsiveness and effectiveness of the customer support team, potentially by increasing staffing or implementing better ticketing system workflows.",
+      "Review and optimize the US stock conversion rates and transaction charges to align with user expectations and competitive offerings.",
+      "Implement a mandatory separate PIN for app access to address user security concerns and enhance data privacy."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-08-03"
+}
