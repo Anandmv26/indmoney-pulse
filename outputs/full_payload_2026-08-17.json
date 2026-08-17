@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-17",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "App Performance and Responsiveness",
+        "description": "Users are reporting significant improvements in app speed, download times, and overall responsiveness, particularly after recent updates. Issues with syncing interruptions and app freezing during synchronization have been largely resolved.",
+        "review_count": 19
+      },
+      {
+        "name": "User Interface and Experience (UI/UX)",
+        "description": "Feedback on the app's interface ranges from positive (simple, smooth, easy to use) to negative (confusing, congested, not user-friendly). Some users find certain UI elements like the top scroll disturbing.",
+        "review_count": 15
+      },
+      {
+        "name": "Investment Features and Functionality",
+        "description": "Users discuss various investment features, including US stocks, mutual funds, F&O trading, and bond tracking. Requests for new features like UPI for US stocks, bond investment options, strategy builders, and cryptocurrency support are common. Issues with specific investment types like SGBs and external MF tracking are also mentioned.",
+        "review_count": 15
+      },
+      {
+        "name": "Customer Support and KYC",
+        "description": "A significant number of reviews highlight issues with customer support, citing unprofessionalism, unresponsiveness, and repetitive KYC processes. Users express frustration with long wait times and unresolved tickets.",
+        "review_count": 10
+      },
+      {
+        "name": "Cashback and Rewards",
+        "description": "Users are expressing dissatisfaction with the current cashback system, noting its complexity, lack of rewards on utility bills and credit card payments, and the inability to utilize rewards for payments. There's a sentiment that the focus has shifted away from previous cashback benefits.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "App Performance and Responsiveness",
+      "User Interface and Experience (UI/UX)",
+      "Investment Features and Functionality"
+    ],
+    "quotes": [
+      {
+        "text": "The app opens faster, responds more smoothly, and downloads complete much quicker than before.",
+        "rating": 5
+      },
+      {
+        "text": "horrible service, unprofessional support team, KYC is pending from 2 weeks and every time I reach out they send a link to fill the same kyc again and close the ticket",
+        "rating": 1
+      },
+      {
+        "text": "no use of cashback forcefully asking to create a us stock account which is terrible...before we used to claim cashback for recharge",
+        "rating": 2
+      }
+    ],
+    "note": "Recent user feedback indicates a strong positive reception to app performance improvements, with many users praising the increased speed and stability. However, the UI/UX remains a mixed bag, with some finding it intuitive and others encountering confusion. Investment feature requests are abundant, particularly for US stocks and crypto. A persistent pain point is customer support, with recurring complaints about unresponsiveness and ineffective KYC processes. The cashback system is also a significant area of user dissatisfaction, with a perceived shift away from previous benefits.",
+    "actions": [
+      "Investigate and address recurring customer support issues, focusing on improving response times and resolution rates for KYC-related tickets.",
+      "Review and simplify the cashback redemption process, ensuring clarity and providing more rewarding options for common transactions like bill payments and recharges.",
+      "Prioritize the development of highly requested investment features, such as direct UPI integration for US stock deposits and cryptocurrency support, based on user demand."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-08-17"
+}
