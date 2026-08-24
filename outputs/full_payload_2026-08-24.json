@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-24",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "Customer Support & Service",
+        "description": "Reviews related to the responsiveness, helpfulness, and accessibility of customer support channels, including chat, AI, and phone support.",
+        "review_count": 16
+      },
+      {
+        "name": "App Performance & User Experience",
+        "description": "Feedback on the app's speed, stability, responsiveness, syncing issues, and overall ease of use, including UI/UX elements.",
+        "review_count": 15
+      },
+      {
+        "name": "Feature Requests & Enhancements",
+        "description": "Suggestions for new features, improvements to existing ones, and specific functionalities users want to see added to the app.",
+        "review_count": 13
+      },
+      {
+        "name": "Onboarding & KYC Process",
+        "description": "User experiences and difficulties encountered during account opening, KYC verification, and initial setup.",
+        "review_count": 6
+      },
+      {
+        "name": "Trading & Investment Functionality",
+        "description": "Feedback on specific trading features, investment options (US stocks, F&O, MFs, Bonds), brokerage rates, and order execution.",
+        "review_count": 11
+      }
+    ],
+    "top_themes": [
+      "Customer Support & Service",
+      "App Performance & User Experience",
+      "Feature Requests & Enhancements"
+    ],
+    "quotes": [
+      {
+        "text": "wrost service, customer care not relove issues,not frindly......they will not talk cut the call...only chat give",
+        "rating": 1
+      },
+      {
+        "text": "The app opens faster, responds more smoothly, and downloads complete much quicker than before. syncing happened during nearly every action, causing the app to stop responding until synchronization finished. Every stopped entry also gained several unnecessary seconds. Thankfully, The latest version is a significant improvement over previous releases. Earlier, those issues have been greatly reduced, making the app much easier and more enjoyable. Huge thanks to everyone behind the algorithms!",
+        "rating": 5
+      },
+      {
+        "text": "INDmoney already has a great interface and a dedicated F&O section. It would be even better with F&O-specific filters like Top Gainers, Top Losers, Volume/OI, and Bullish/Bearish. Currently, after finding an F&O stock, we still have to open the option chain separately to identify the relevant CALL or PUT. A one-click F&O experience, where the most relevant CALL/PUT with strike and expiry is shown instantly, would make trading much faster. Please consider adding this in a future update 🙏",
+        "rating": 4
+      }
+    ],
+    "note": "User feedback over the past 10 weeks highlights persistent issues with customer support, with many users reporting unhelpful chat-based support and long resolution times. App performance has seen significant improvements, with users praising faster downloads and increased stability, though some still experience syncing disruptions. Feature requests are varied, with strong demand for enhanced F&O trading tools, better bond tracking, and improved onboarding processes. KYC and account opening remain a pain point for some. Addressing customer support responsiveness and refining the onboarding flow are key priorities.",
+    "actions": [
+      "Implement a tiered customer support system to escalate complex issues beyond the chatbot and ensure timely human intervention for critical problems.",
+      "Conduct a thorough review of the KYC process to identify and fix bugs or workflow inefficiencies that lead to repeated requests for documentation.",
+      "Prioritize the development of F&O-specific filters (Top Gainers, Top Losers, Volume/OI) and a one-click CALL/PUT selection feature to enhance the trading experience."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-08-24"
+}
