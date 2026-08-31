@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-31",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "App Performance & Stability (Syncing)",
+        "description": "Users frequently mention improvements in app speed, download times, and stability, particularly highlighting the reduction of frustrating syncing issues that previously caused the app to freeze or become unresponsive.",
+        "review_count": 25
+      },
+      {
+        "name": "Customer Support & Communication",
+        "description": "A significant number of reviews express dissatisfaction with customer support, citing issues with chatbots, unresponsiveness, difficulty in resolving problems, and a lack of human interaction.",
+        "review_count": 15
+      },
+      {
+        "name": "Feature Gaps & Investment Options",
+        "description": "Users request the inclusion of specific investment products like FDs, bonds, and direct growth mutual funds, or express disappointment when features are removed or changed, impacting their investment decisions.",
+        "review_count": 10
+      },
+      {
+        "name": "US Stock Investment Experience",
+        "description": "Reviews discuss the process of investing in US stocks, including issues with adding funds, exchange rates, and the availability of specific bank options for transfers.",
+        "review_count": 8
+      },
+      {
+        "name": "User Interface & Experience (UI/UX)",
+        "description": "Comments on the app's design, ease of use, and specific UI elements like font size, chart rotation, and portfolio display.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "App Performance & Stability (Syncing)",
+      "Customer Support & Communication",
+      "Feature Gaps & Investment Options"
+    ],
+    "quotes": [
+      {
+        "text": "I love😍the app! Not to mention🦾 being unable to use the app when it's syncing because it literally stops responding until it's done. But now download faster and more stable. Thank you so much to everyone algorithms. The app is soo much faster download. This is syncing 🧖🏻happens pretty much every time you open the app, start, stop, or edit an entry, so it was a real pain. You'd stop an entry and it'd be several seconds before it'd actually stop and those extra seconds are added too the entry.",
+        "rating": 5
+      },
+      {
+        "text": "you don't have a customer care number and even not able to speak. look your customer is a human being or a robot. i request you kindly don't use AI to speak with human beings use human beings to speak",
+        "rating": 1
+      },
+      {
+        "text": "these trading apps have deliberately removed direct growth mutual funds to earn more commission",
+        "rating": 1
+      }
+    ],
+    "note": "User feedback indicates significant improvements in app performance and stability, particularly regarding syncing issues, which is highly appreciated. However, customer support remains a critical pain point, with users expressing frustration over chatbot limitations and lack of human interaction. There's also a consistent demand for expanded investment options, such as FDs and bonds, and concerns about the US stock investment experience, including exchange rates and fund transfer limitations. Addressing these support and feature gap issues will be crucial for user retention and satisfaction.",
+    "actions": [
+      "Enhance customer support by introducing a direct human support channel or improving the chatbot's ability to escalate complex issues.",
+      "Prioritize the addition of requested investment products like FDs and bonds to address feature gaps and user demand.",
+      "Investigate and optimize the US stock fund transfer process, particularly concerning exchange rates and the inclusion of more PSU banks for fund deposits."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-08-31"
+}
