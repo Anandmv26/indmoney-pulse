@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-07",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "App Performance & Stability (Syncing, Speed, Responsiveness)",
+        "description": "Users frequently praise recent updates for improving app speed, download times, and overall stability, particularly highlighting the reduction of frustrating syncing delays and app freezes.",
+        "review_count": 25
+      },
+      {
+        "name": "Cashback & Rewards Issues",
+        "description": "A significant number of users are confused or dissatisfied with how cashback and rewards are applied, often finding they are directed to US stocks instead of direct cash or bank accounts, and that conditions for claiming rewards are unclear or restrictive.",
+        "review_count": 10
+      },
+      {
+        "name": "US Stocks & Investment Experience",
+        "description": "Reviews cover various aspects of US stock investing, including ease of trading, minimum deposit amounts, withdrawal issues, fund transfer limitations (e.g., lack of PSU bank support), and the mandatory requirement to create a US stock account for cashback.",
+        "review_count": 12
+      },
+      {
+        "name": "Customer Support & Issue Resolution",
+        "description": "Users express frustration with the customer support system, citing unhelpful chatbots, dropped calls, lack of direct contact numbers, and unresolved transaction or account issues, leading to a loss of trust.",
+        "review_count": 9
+      },
+      {
+        "name": "Feature Requests & UI/UX Feedback",
+        "description": "Suggestions for new features like automatic dark/light theme switching, bringing back the 'MIND' tool, adding FD/bonds, PIN/biometric security for selling, and optimizing for tablets, alongside feedback on UI clarity and user-friendliness compared to competitors.",
+        "review_count": 10
+      }
+    ],
+    "top_themes": [
+      "App Performance & Stability (Syncing, Speed, Responsiveness)",
+      "US Stocks & Investment Experience",
+      "Cashback & Rewards Issues"
+    ],
+    "quotes": [
+      {
+        "text": "The latest update has made such a noticeable difference. 🌿 Downloads are quicker, the app feels more stable, and everything responds much more smoothly. Before, syncing seemed to start whenever I opened the app, started, stopped, or edited an entry, often leaving the whole app frozen until it finished.",
+        "rating": 5
+      },
+      {
+        "text": "You have to mandatorily create us stocks account and buy 5000 in us stocks to claim the cashback earned in bill payments or upi payments. which is ridiculous.",
+        "rating": 1
+      },
+      {
+        "text": "There is no proper customer care support. If a transaction issue occurs, your complaint may not be heard or resolved. The lack of responsive support makes it very difficult to trust the service",
+        "rating": 1
+      }
+    ],
+    "note": "User sentiment is largely positive regarding recent performance improvements, with many praising faster downloads, increased stability, and a smoother user experience due to reduced syncing delays. However, significant friction points remain around the cashback and rewards system, with users confused by the redirection to US stocks and unclear claiming conditions. The US stock investment experience also garners mixed feedback, highlighting issues with fund transfers, mandatory account creation for rewards, and withdrawal problems. Customer support continues to be a critical area for improvement, with frequent complaints about unresponsiveness and ineffective resolution. Addressing these core issues will be key to maintaining user satisfaction and trust.",
+    "actions": [
+      "Clarify and simplify the cashback and rewards redemption process. Clearly communicate where cashback will be credited (e.g., direct to bank, US stocks) and any associated conditions upfront during the transaction.",
+      "Enhance the US stock fund transfer options by including PSU banks and clearly stating remittance processing times for different banks.",
+      "Improve customer support responsiveness and effectiveness by ensuring chatbots can escalate complex issues to human agents promptly and that support staff are empowered to resolve transaction and account-related problems."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-09-07"
+}
