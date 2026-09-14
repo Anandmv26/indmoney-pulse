@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-14",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "Performance and Stability Improvements",
+        "description": "Users are reporting significant improvements in app speed, responsiveness, and stability, particularly related to syncing processes. Previously, syncing caused the app to freeze or delay actions, but recent updates have addressed this.",
+        "review_count": 20
+      },
+      {
+        "name": "US Stocks and Investment Features",
+        "description": "Reviews cover various aspects of US stock investing, including trading features, deposit processes, cashback mechanisms tied to US stocks, and the availability of specific investment options like ETFs and global stocks.",
+        "review_count": 16
+      },
+      {
+        "name": "Customer Support and Account Management",
+        "description": "Users are expressing dissatisfaction with customer support, including the lack of phone numbers, ineffective chatbots, and issues with account deletion and management.",
+        "review_count": 11
+      },
+      {
+        "name": "Bugs and Technical Issues",
+        "description": "Several users are reporting specific bugs and technical glitches, such as app crashes, incorrect trade timings, issues with order execution, and problems with notifications.",
+        "review_count": 10
+      },
+      {
+        "name": "User Interface and Feature Requests",
+        "description": "Feedback on the app's UI, with some finding it less user-friendly than competitors, and requests for new features like heatmaps, automatic themes, and more detailed analysis tools.",
+        "review_count": 9
+      }
+    ],
+    "top_themes": [
+      "Performance and Stability Improvements",
+      "US Stocks and Investment Features",
+      "Customer Support and Account Management"
+    ],
+    "quotes": [
+      {
+        "text": "Downloads are noticeably faster, and the app stays usable while I’m working. Previously, syncing could happen after opening the app or changing an entry and then make the whole interface unresponsive.",
+        "rating": 5
+      },
+      {
+        "text": "This is a dummy app. Showing Mutual Fund Portfolio which was I sold Few years back.... There is no Exact Tracking info. of Stocks Holdings , Bank Balance, Expenses and any other Diversified Portfolio.....",
+        "rating": 1
+      },
+      {
+        "text": "Fraud App, adding money takes 5-6 days. Also the charges are really high. All claims made by them for US investment are misleading. Effective Charges are around 4% - 7%. Also it allows adding money via only 4 Banks which to my surprise do not include SBI Bank. They force us to open an account with the federal Bank.",
+        "rating": 1
+      }
+    ],
+    "note": "User sentiment is largely positive regarding recent performance and stability improvements, with many appreciating faster downloads and a more responsive app. However, significant concerns persist around US stock features, particularly the mandatory US stock account for cashback and perceived misleading offers. Customer support remains a pain point, with users reporting unhelpful chatbots and difficulties with account management. Several critical bugs and UI issues are also impacting user experience and leading to financial losses for some. Addressing these core issues will be crucial for retaining and growing the user base.",
+    "actions": [
+      "Investigate and resolve the critical bug causing order execution at incorrect prices, especially for limit sell orders and GTT bids. Revert to previous UI if necessary.",
+      "Clarify and simplify the cashback mechanism for US stocks. Ensure offers are transparent and do not mandate opening new accounts or investing in specific products without clear prior disclosure.",
+      "Enhance customer support channels by providing direct contact numbers, improving chatbot capabilities to resolve common issues, and streamlining the account deletion process."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-09-14"
+}
