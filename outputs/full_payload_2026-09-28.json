@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-28",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "App Performance and Stability",
+        "description": "Reviews discussing app speed, responsiveness, syncing issues, stability, and crashes.",
+        "review_count": 25
+      },
+      {
+        "name": "Feature Requests and Functionality Gaps",
+        "description": "Suggestions for new features, improvements to existing ones, and missing functionalities.",
+        "review_count": 18
+      },
+      {
+        "name": "User Experience and Interface",
+        "description": "Feedback on the ease of use, clarity of the interface, and overall user journey.",
+        "review_count": 12
+      },
+      {
+        "name": "Charges, Fees, and Cashback/Rewards",
+        "description": "Concerns about transaction charges, hidden fees, and issues with cashback or reward crediting.",
+        "review_count": 8
+      },
+      {
+        "name": "Customer Support and Issue Resolution",
+        "description": "Feedback on the effectiveness and responsiveness of customer support, including ticket raising and issue resolution.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "App Performance and Stability",
+      "Feature Requests and Functionality Gaps",
+      "User Experience and Interface"
+    ],
+    "quotes": [
+      {
+        "text": "Now the app is soo much faster download, and now download faster and more stable. Not to mention 💮being unable to use the app when it's syncing because it literally stops responding until it's done.",
+        "rating": 5
+      },
+      {
+        "text": "Request: Add ChatGPT / Custom GPT Actions Support Great job introducing the MCP server for Claude AI! However, many active traders rely heavily on ChatGPT (OpenAI Actions/APIs) to track live data and portfolio flows. Please expand compatibility to include ChatGPT Actions or provide an OpenAPI schema alongside Claude. This will make INDmoney the ultimate AI-first broker. Hope to see this soon!",
+        "rating": 5
+      },
+      {
+        "text": "Be very careful while using the InstaCash/loan facility. The insurance option appears to be pre-selected, so you have to manually notice it and opt out if you don't want it. I don't understand why insurance is selected by default instead of letting the customer choose it. Also, please check the foreclosure charges carefully before taking any loan through INDmoney. The charges can be quite high, and there are better loan options available in the market with more transparent terms.",
+        "rating": 1
+      }
+    ],
+    "note": "Recent user feedback highlights significant improvements in app performance and stability, with many users praising the increased speed and reduced syncing interruptions. However, feature requests remain a strong theme, particularly around AI integration (ChatGPT), enhanced backtesting capabilities, and more comprehensive portfolio analytics. Users also continue to express concerns regarding transparency in charges and the reliability of cashback/rewards. Customer support experiences are mixed, with some finding it instant and others reporting delays or unresolved issues. Addressing these areas will be key to enhancing user satisfaction.",
+    "actions": [
+      "Investigate and address the reported discrepancies in F&O charges to ensure transparency and fairness for all users.",
+      "Prioritize the development of advanced portfolio analytics features, including allocation breakdown, sector distribution, and benchmark comparisons, based on user requests.",
+      "Review and optimize the cashback and reward crediting process to ensure timely and accurate disbursement, and clarify any conditions or limitations upfront."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-09-28"
+}
