@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-19",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "Customer Support & Responsiveness",
+        "description": "Issues related to the quality, availability, and effectiveness of customer support, including unresponsiveness, rude behavior, and unresolved complaints.",
+        "review_count": 15
+      },
+      {
+        "name": "App Performance & Stability",
+        "description": "Problems with the app's functionality, including lagging, crashing, freezing, slow loading times, and issues after updates.",
+        "review_count": 13
+      },
+      {
+        "name": "Trading Features & Functionality",
+        "description": "Feedback on specific trading tools and features, such as trailing stop-loss, GTT orders, order execution, and chart views.",
+        "review_count": 10
+      },
+      {
+        "name": "Onboarding & Account Management",
+        "description": "Difficulties encountered during account opening, KYC, adding funds, and managing account details, including issues with specific banks and payment methods.",
+        "review_count": 10
+      },
+      {
+        "name": "Data Accuracy & Portfolio Tracking",
+        "description": "Concerns about the accuracy of net worth calculations, transaction history, dividend payments, and the display of investment data.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "Customer Support & Responsiveness",
+      "App Performance & Stability",
+      "Trading Features & Functionality"
+    ],
+    "quotes": [
+      {
+        "text": "Trailing SL never works. I enter a trade, it moves in my predicted direction, turning profitable, and when it starts going in the opposite direction, trailing SL always and consistently fails to book profits. Absolutely a rubbish feature.",
+        "rating": 1
+      },
+      {
+        "text": "The worst, investment app ever in the market. don't give proper customer care support, lot of confusions to buy & sell stocks. I called to customer care service, to sortout my issues, that worker said \"talk to me in Hindi or bengali, if you don't know cut the call\" he talked very rudely.",
+        "rating": 1
+      },
+      {
+        "text": "Unbelievably amazing app! I don't use Zerodha/ Upstox/ bank apps now. 7 Stars from side.",
+        "rating": 5
+      }
+    ],
+    "note": "User feedback highlights persistent issues with customer support responsiveness and rudeness, alongside significant concerns about app performance and stability, particularly after recent updates. Trading features like trailing stop-loss and order execution are also frequently criticized. Onboarding and account management, especially regarding fund transfers and bank integrations, present challenges. Data accuracy for portfolio tracking needs improvement. While some users praise the app's ease of use and UI, the recurring negative themes indicate critical areas requiring immediate attention to improve user trust and satisfaction.",
+    "actions": [
+      "Implement a tiered customer support system with clear escalation paths for critical issues like order execution failures and security breaches.",
+      "Conduct a thorough audit of recent app updates to identify and fix performance bottlenecks, lagging, and crashing issues, prioritizing stability.",
+      "Review and simplify the process for adding funds to US stock wallets, exploring additional bank integrations and UPI options, and clearly communicating any associated charges."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-10-19"
+}
