@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-26",
+  "weekly_pulse": {
+    "themes": [
+      {
+        "name": "App Performance & Stability",
+        "description": "Issues related to app crashing, freezing, slow loading, syncing problems, and general unresponsiveness.",
+        "review_count": 17
+      },
+      {
+        "name": "Trading Functionality & Features",
+        "description": "Feedback on trading features like GTT orders, stop-loss, limit orders, option chains, charts, and the overall trading UI.",
+        "review_count": 15
+      },
+      {
+        "name": "Customer Support & Issue Resolution",
+        "description": "User experiences with customer service, including response times, effectiveness of solutions, and rudeness.",
+        "review_count": 10
+      },
+      {
+        "name": "Onboarding & Account Management",
+        "description": "Difficulties with adding bank accounts, setting up auto-pay, adding money to US stock accounts, and UPI issues.",
+        "review_count": 8
+      },
+      {
+        "name": "Notifications & UI/UX",
+        "description": "Complaints about excessive notifications, difficulty disabling them, and suggestions for UI improvements.",
+        "review_count": 7
+      }
+    ],
+    "top_themes": [
+      "App Performance & Stability",
+      "Trading Functionality & Features",
+      "Customer Support & Issue Resolution"
+    ],
+    "quotes": [
+      {
+        "text": "when will we place sell order GTT or Limit, it cancels automatically and sold at current price. this happens two times with me and lost 3 lacs. now it is worst app. backend is not good for this app. now i switch to groww app. it works good. worst app now.",
+        "rating": 1
+      },
+      {
+        "text": "Thumbs down for UPI, it says my phone has some \"harmful\" app installed..! Every other bank and UPI app works on my phone and has no issue except this one. When I contacted Indmoney support they parroted the same text book reply, saying I have some harmful app, when I asked them to figure out which one is it they said they have no clue .. ridiculous.. UPDATE after the team response: I am facing this issue for months and already talked to the support team and they washer their hands with no fix",
+        "rating": 1
+      },
+      {
+        "text": "INDmoney is now one of the best brokers! Everything has improved, and the issues we faced earlier have been resolved. Now, index and option premium charts are also available separately. A big thank you to the INDmoney team for listening to users and improving the platform. My rating: 3 stars to 5 stars! ⭐⭐⭐⭐⭐ Once again, thank you, INDmoney team! Keep up the great work.",
+        "rating": 5
+      }
+    ],
+    "note": "User feedback over the past 10 weeks highlights persistent issues with app performance and stability, including frequent crashes and slow loading times. Trading functionality, particularly GTT orders and stop-loss mechanisms, remains a significant pain point, leading to financial losses for some users. Customer support is frequently cited as unhelpful and unresponsive, with some users experiencing rude interactions. Onboarding and account management, especially regarding UPI and US stock account funding, also present challenges. While there are positive comments on the app's potential and recent improvements, these core issues are impacting user trust and satisfaction. Addressing these critical areas is paramount for retention and growth.",
+    "actions": [
+      "Investigate and fix the root cause of GTT order cancellations and automatic market order execution to prevent user losses.",
+      "Enhance customer support training to ensure empathetic, effective, and multilingual communication, and implement a robust escalation process for critical issues.",
+      "Prioritize stability improvements, focusing on reducing app crashes, freezing, and slow loading times, especially after recent updates."
+    ]
+  },
+  "fee_scenario": "Mutual Fund Exit Load on INDmoney Platform",
+  "explanation_bullets": [
+    "An exit load is a charge levied by a mutual fund house when an investor redeems their units before a specified period.",
+    "The exit load percentage and the holding period for its applicability are determined by the respective mutual fund scheme, not by the INDmoney platform.",
+    "INDmoney displays the exit load details for each mutual fund scheme, including the applicable percentage and the tenure, within the app.",
+    "If an investor redeems units of a mutual fund scheme before the exit load period expires, the calculated exit load amount will be deducted from the redemption proceeds.",
+    "The exit load is a fee charged by the mutual fund Asset Management Company (AMC) and is not a fee charged by INDmoney for facilitating the transaction."
+  ],
+  "last_checked": "2026-10-26"
+}
